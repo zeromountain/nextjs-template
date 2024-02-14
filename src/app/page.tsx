@@ -1,5 +1,5 @@
-import { Button } from "@nextui-org/button";
+import DarkModeToggle from "@/components/theme/_components/dark-mode-toggle";
 
 export default function Home() {
-  return <Button>버튼</Button>;
+  return <DarkModeToggle />;
 }
