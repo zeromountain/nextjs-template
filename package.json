@@ -6,10 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint '*/**/*.{js,jsx,ts,tsx}' --fix --quiet",
     "format": "prettier --write '*/**/*.{js,jsx,ts,tsx,json,css,md}'"
   },
   "dependencies": {
+    "@nextui-org/button": "^2.0.26",
+    "@nextui-org/react": "^2.2.9",
+    "@nextui-org/system": "^2.0.15",
+    "@nextui-org/theme": "^2.1.17",
+    "framer-motion": "^11.0.5",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18"
@@ -34,6 +39,5 @@
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
-  },
-  "packageManager": "yarn@4.1.0"
+  }
 }
